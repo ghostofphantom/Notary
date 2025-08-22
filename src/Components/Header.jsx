@@ -13,7 +13,7 @@ function Header() {
           <ul className="navbar-nav">
             <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
             <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
-            <li className="nav-item"><Link className="nav-link" to="#">Testimonials</Link></li>
+            <li className="nav-item"><Link className="nav-link" to="/testimonials">Testimonials</Link></li>
             {/* <li className="nav-item"><Link className="nav-link" to="#">About</Link></li> */}
             <li className="nav-item"><Link className="nav-link" to="#">Contact</Link></li>
           </ul>
