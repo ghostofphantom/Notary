@@ -4,6 +4,7 @@ import Banner from '../Components/Banner'
 import Product from '../Components/Product'
 import Card from '../Components/Card'
 import UseState from '../Components/UseState'
+import Slider from '../Components/Sider/Slider'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <UseState />
 
         <Card title="This is title" desc="This is description" price="3432" />
+        <Slider />
 
     </div>
   )
