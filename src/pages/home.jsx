@@ -5,6 +5,7 @@ import Product from '../Components/Product'
 import Card from '../Components/Card'
 import UseState from '../Components/UseState'
 import Slider from '../Components/Sider/Slider'
+import UseEffectHook from '../Components/UseEffectHook'
 
 function Home() {
   return (
@@ -12,10 +13,10 @@ function Home() {
       {/* <Banner />
       <Product /> */}
 
-        <UseState />
-
-        <Card title="This is title" desc="This is description" price="3432" />
-        <Slider />
+        {/* <UseState /> */}
+        <UseEffectHook />
+        {/* <Card title="This is title" desc="This is description" price="3432" /> */}
+        {/* <Slider /> */}
 
     </div>
   )
