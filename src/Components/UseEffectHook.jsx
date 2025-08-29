@@ -8,6 +8,10 @@ function UseEffectHook() {
         setCounter(counter+1)
     }
 
+    function Decrease(){
+        setCounter(counter-1)
+    }
+
 useEffect(() => {
     console.log("LKASJDFLKAJSFD;LKAJDS;LKF")
 },[counter])
@@ -16,7 +20,9 @@ useEffect(() => {
   return (
         <div>
                 <h1> {counter} </h1>
-             <button onClick={Increase}> INCEASE </button>
+             <button onClick={Increase}> INCREASE </button>
+             <button onClick={Decrease}> DECREASE </button>
+
         </div>
   )
 }
